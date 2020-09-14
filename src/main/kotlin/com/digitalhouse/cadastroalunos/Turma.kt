@@ -1,3 +1,3 @@
 package com.digitalhouse.cadastroalunos
 
-class Turma(override val nome: String, val Curso curso) : INomeavel
+class Turma(override val nome: String, val curso: Curso) : INomeavel
