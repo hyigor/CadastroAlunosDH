@@ -1,6 +1,6 @@
 package com.digitalhouse.cadastroalunos
 
-class Curso(override var nome: String):INomeavel {
+class Curso(override var nome: String, var professor: Professor):INomeavel {
     var listaAulas: ArrayList<Aula> = arrayListOf()
     var listaAlunos: ArrayList<Aluno> = arrayListOf()
 
@@ -14,6 +14,8 @@ class Curso(override var nome: String):INomeavel {
     fun adicionarAlunos(vararg alunos: Aluno){
         listaAlunos.addAll(alunos)
     }
+
+
 
 }
 
