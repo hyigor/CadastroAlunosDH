@@ -6,6 +6,6 @@ class Aluno(var registroAcademico: Int, override val nome: String, var sobrenome
     }
 
     fun fazerLicao() {
-        println("O aluno $nome está fazendo a lição ")
+        println("O aluno $nome está fazendo a lição")
     }
 }
