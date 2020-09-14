@@ -2,7 +2,7 @@ package com.digitalhouse.cadastroalunos
 
 fun main() {
     println("Teste")
-    val professor = Professor( "Allan",1, )
+    val professor = Professor( "Allan",1)
     val aluno1 = Aluno(1, "Igor", "")
     val aluno2 = Aluno(2, "levi", "")
     val aluno3 = Aluno(3, "Bruno", "")
